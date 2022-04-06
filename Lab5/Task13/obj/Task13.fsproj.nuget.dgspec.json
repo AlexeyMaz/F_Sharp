@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Lab5\\Lab5.fsproj": {}
+    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task13\\Task13.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Lab5\\Lab5.fsproj": {
+    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task13\\Task13.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Lab5\\Lab5.fsproj",
-        "projectName": "Lab5",
-        "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Lab5\\Lab5.fsproj",
+        "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task13\\Task13.fsproj",
+        "projectName": "Task13",
+        "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task13\\Task13.fsproj",
         "packagesPath": "C:\\Users\\Al Maz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Lab5\\obj\\",
+        "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task13\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages"
