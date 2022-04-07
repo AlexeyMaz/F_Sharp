@@ -10,7 +10,8 @@ let Is_Simple x =
             else
                 let new_current = current - 1
                 Is_Simple1 x new_current
-    Is_Simple1 x (x - 1)
+    let new_x = x - 1
+    Is_Simple1 x new_x
 
 //Сумма непростых делителей числа
 let Sum_notSimDiv n func cur_sum =
@@ -21,9 +22,21 @@ let Sum_notSimDiv n func cur_sum =
        Bypass1 n func newInit new_divider 
    Bypass1 n func cur_sum n
 
+//Кол-во цифр числа, меньших 3
+let rec Kolvo_less3 n kol =
+   let b = n / 10
+   let new_kol = kol + 1
+   match n with
+   |0 -> kol
+   |n when n % 10 < 3 -> Kolvo_less3 b new_kol
+   |n -> Kolvo_less3 b kol
+      
+
+
 [<EntryPoint>]
 let main argv =
    Console.WriteLine("Введите число:")
    let x = Convert.ToInt32(Console.ReadLine())//30
-   Console.WriteLine("Сумма непростых делителей числа: {0}", Sum_notSimDiv x (fun x y -> x+y) 0)//1 6 10 15 30
+   Console.WriteLine("Сумма непростых делителей числа: {0}", Sum_notSimDiv x (fun x y -> x + y) 0)//1 6 10 15 30
+   Console.WriteLine("Кол-во цифр числа, меньших 3: {0}", Kolvo_less3 x 0)
    0
