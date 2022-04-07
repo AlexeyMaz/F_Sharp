@@ -24,3 +24,4 @@ C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task14\obj\Debug\netcoreapp3.1\Task14.
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task14\obj\Debug\netcoreapp3.1\Task14.dll
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task14\obj\Debug\netcoreapp3.1\Task14.pdb
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task14\obj\Debug\netcoreapp3.1\Task14.genruntimeconfig.cache
+C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task14\obj\Debug\netcoreapp3.1\Task14.fsproj.AssemblyReference.cache

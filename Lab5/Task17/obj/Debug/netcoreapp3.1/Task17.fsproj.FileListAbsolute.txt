@@ -18,7 +18,6 @@ C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\bin\Debug\netcoreapp3.1\ru\FSha
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\bin\Debug\netcoreapp3.1\tr\FSharp.Core.resources.dll
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\bin\Debug\netcoreapp3.1\zh-Hans\FSharp.Core.resources.dll
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\bin\Debug\netcoreapp3.1\zh-Hant\FSharp.Core.resources.dll
-C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\obj\Debug\netcoreapp3.1\Task17.fsproj.AssemblyReference.cache
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\obj\Debug\netcoreapp3.1\Task17.AssemblyInfoInputs.cache
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\obj\Debug\netcoreapp3.1\Task17.AssemblyInfo.fs
 C:\Users\Al Maz\source\repos\F_Sharp\Lab5\Task17\obj\Debug\netcoreapp3.1\Task17.fsproj.CopyComplete
