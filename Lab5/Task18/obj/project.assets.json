@@ -95,9 +95,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task18\\Task18.fsproj",
-      "projectName": "Task18",
-      "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task18\\Task18.fsproj",
+      "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task18\\Task18-19.fsproj",
+      "projectName": "Task18-19",
+      "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task18\\Task18-19.fsproj",
       "packagesPath": "C:\\Users\\Al Maz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab5\\Task18\\obj\\",
       "projectStyle": "PackageReference",
