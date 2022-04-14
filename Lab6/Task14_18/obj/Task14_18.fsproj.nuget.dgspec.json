@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj": {}
+    "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj": {
+    "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj",
+        "projectUniqueName": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj",
         "projectName": "Task14_18",
-        "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj",
-        "packagesPath": "C:\\Users\\Al Maz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\obj\\",
+        "projectPath": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\Task14_18.fsproj",
+        "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task14_18\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Al Maz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

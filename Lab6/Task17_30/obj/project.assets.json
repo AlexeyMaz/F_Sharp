@@ -89,24 +89,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Al Maz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages": {}
+    "C:\\Users\\almaz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\Task17_30.fsproj",
+      "projectUniqueName": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\Task17_30.fsproj",
       "projectName": "Task17_30",
-      "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\Task17_30.fsproj",
-      "packagesPath": "C:\\Users\\Al Maz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\obj\\",
+      "projectPath": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\Task17_30.fsproj",
+      "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Al Maz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -149,7 +144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
