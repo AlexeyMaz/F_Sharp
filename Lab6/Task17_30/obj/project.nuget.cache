@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2kBlocSuAT167qz8wai/iqPtT8tCTGxJ/+mnVwt27eiz1q+/ELfkXpuUg4vRd12oV1DWBIZd/y2RXb/RiuJe/Q==",
+  "dgSpecHash": "KJ4KX7XymoYSV72b1N384iRmqrPlbDvcrz2Q2zgBRTKcJG7YR4uuRzLr2EzZu1Yz4gbsH0Up9xjqm3c2Hr6/tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\Task17_30.fsproj",
+  "projectFilePath": "C:\\Users\\almaz\\source\\repos\\F_Sharp\\Lab6\\Task17_30\\Task17_30.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Al Maz\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+    "C:\\Users\\almaz\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
