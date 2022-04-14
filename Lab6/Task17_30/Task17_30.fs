@@ -7,13 +7,6 @@ let rec readList n =
        let Tail = readList (n-1)
        Head::Tail
 
-let rec contains list elem =
-    match list with
-    | [] -> false
-    | head :: t ->
-        if head = elem then true
-        else contains t elem
-
 let IsLocalMax list idx =
    let rec IsLocalMax1 (list: 'a list) prev index cur_index =
        if index = cur_index then
