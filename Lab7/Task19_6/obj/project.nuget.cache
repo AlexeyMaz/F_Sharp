@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CRjL1rbh0O1nib+QIhbuIu0K/24uPuQ5f9RQQcoovAckaQf9zpxXQ7JasmEtSelMgZpLMAHtbVJd0jyY0i9Uqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab7\\Task19_6\\Task19_6.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Al Maz\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
