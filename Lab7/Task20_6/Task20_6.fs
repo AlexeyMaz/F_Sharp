@@ -1,5 +1,15 @@
 ﻿open System
 
+let readList n =
+   let rec readList1 n list =
+       match n with
+       | 0 -> list
+       | _ ->
+           let new_list = list @ [Console.ReadLine()]
+           let new_n = n - 1
+           readList1 new_n new_list
+   readList1 n []
+
 let rec writeList = function
     | [] -> ()
     | head::tail -> 
@@ -74,12 +84,30 @@ let mostFreqSymbol str =
     let str_map = makeAlphabetMap [str]
     List.sortByDescending (fun ch -> str_map.[ch]) chars |> List.item 0
  
-//Метод 3
+//Отсортировать строки в порядке увеличения разницы между частотой наиболее часто
+//встречаемого символа в строке и частотой его появления в алфавите
 let Subtask3 list =
     let alphabetFreq = makeAlphabetFreqMap list
     List.sortBy (fun str -> Math.Abs((makeAlphabetFreqMap [str]).[mostFreqSymbol str] - alphabetFreq.[mostFreqSymbol str])) list
 
+let choose = function
+| 1 -> Subtask6
+| _ -> Subtask3
+
 [<EntryPoint>]
 let main argv =
+    printfn "Введите кол-во строк:"
+    let n = Console.ReadLine() |> Convert.ToInt32;
+    printfn "Введите список строк:"
+    let list = readList n
 
-   0
+    printfn "Выберите способ сортировки:"
+    printfn "1. В порядке увеличения медианного значения выборки строк"
+    printfn "2. В порядке увеличения разницы между частотой наиболее часто встречаемого символа в строке и частотой его появления в алфавите"
+
+    let method = Console.ReadLine() |> Convert.ToInt32;
+    let sorted_list = list |> choose method
+
+    printfn "Отсортированный список:"
+    writeList sorted_list
+    0
