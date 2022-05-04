@@ -94,11 +94,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Lab8\\Lab8.fsproj",
-      "projectName": "Lab8",
-      "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Lab8\\Lab8.fsproj",
+      "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Task4\\Task4.fsproj",
+      "projectName": "Task4",
+      "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Task4\\Task4.fsproj",
       "packagesPath": "C:\\Users\\Al Maz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Lab8\\obj\\",
+      "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Task4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Al Maz\\AppData\\Roaming\\NuGet\\NuGet.Config",
