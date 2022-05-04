@@ -26,6 +26,8 @@ let Bypass x func init =
 let main argv =
    Console.WriteLine("Введите число:")
    let x = Convert.ToInt32(Console.ReadLine())
-   Console.WriteLine("Произведение: {0}", Bypass x (fun x y -> x*y) 1)
-   Console.WriteLine("Функция Эйлера от числа:{0}", Eiler x (fun x  -> x + 1) 0) //30->8
+   let y = Convert.ToInt32(Console.ReadLine())
+   Console.WriteLine(nod x y)
+   //Console.WriteLine("Произведение: {0}", Bypass x (fun x y -> x*y) 1)
+   //Console.WriteLine("Функция Эйлера от числа:{0}", Eiler x (fun x  -> x + 1) 0) //30->8
    0
