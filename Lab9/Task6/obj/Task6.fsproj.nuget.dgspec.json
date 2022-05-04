@@ -1,39 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Lab9\\Lab9.fsproj": {}
+    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Task6\\Task6.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Lab9\\Lab9.fsproj": {
+    "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Task6\\Task6.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Lab9\\Lab9.fsproj",
-        "projectName": "Lab9",
-        "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Lab9\\Lab9.fsproj",
+        "projectUniqueName": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Task6\\Task6.fsproj",
+        "projectName": "Task6",
+        "projectPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Task6\\Task6.fsproj",
         "packagesPath": "C:\\Users\\Al Maz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Lab9\\obj\\",
+        "outputPath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab9\\Task6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Al Maz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net472"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net472": {
+            "targetAlias": "net472",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net472": {
+          "targetAlias": "net472",
           "dependencies": {
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
@@ -42,22 +42,12 @@
               "generatePathProperty": true
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }
