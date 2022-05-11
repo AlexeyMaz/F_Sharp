@@ -20,3 +20,4 @@ C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Tasks5-10\obj\Debug\net472\Tasks5-10.A
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Tasks5-10\obj\Debug\net472\Tasks5-10.fsproj.CopyComplete
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Tasks5-10\obj\Debug\net472\Tasks5-10.exe
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Tasks5-10\obj\Debug\net472\Tasks5-10.pdb
+C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Tasks5-10\obj\Debug\net472\Tasks5-10.fsproj.AssemblyReference.cache

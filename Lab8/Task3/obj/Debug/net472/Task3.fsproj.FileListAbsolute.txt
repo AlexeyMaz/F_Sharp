@@ -18,7 +18,6 @@ C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\bin\Debug\net472\ru\FSharp.Core.
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\bin\Debug\net472\tr\FSharp.Core.resources.dll
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\bin\Debug\net472\zh-Hans\FSharp.Core.resources.dll
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\bin\Debug\net472\zh-Hant\FSharp.Core.resources.dll
-C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\obj\Debug\net472\Task3.fsproj.AssemblyReference.cache
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\obj\Debug\net472\Task3.exe.config
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\obj\Debug\net472\Task3.AssemblyInfoInputs.cache
 C:\Users\Al Maz\source\repos\F_Sharp\Lab8\Task3\obj\Debug\net472\Task3.AssemblyInfo.fs
