@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "odVzHj0zAop/MPZpxEgK+qgAxSiJl8w1TvBrp9zKKPCj60qVi/p1keCrbQkBoC2Xa4mWy6zK5Do5ZlPPxNkOxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Al Maz\\source\\repos\\F_Sharp\\Lab8\\Task3\\Task3.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Al Maz\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
+    "C:\\Users\\Al Maz\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\Al Maz\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
