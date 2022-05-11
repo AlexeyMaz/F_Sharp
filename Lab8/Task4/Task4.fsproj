@@ -7,6 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Task1.fs" />
+    <Compile Include="Task4.fs" />
   </ItemGroup>
 </Project>
