@@ -53,9 +53,9 @@ let rec inputField prompt regex =
 let inputLicense() =
     printfn "--- Создание водительского удостоверения ---"
 
-    let lastname = inputField "Фамилия" "^[a-zA-Zа-яА-Я]*$"
-    let firstname = inputField "Имя" "^[a-zA-Zа-яА-Я]*$"
-    let patronymic = inputField "Отчество" "^[a-zA-Zа-яА-Я]*$"
+    let lastname = inputField "Фамилия" "^[a-zA-Zа-яА-Я]+$"
+    let firstname = inputField "Имя" "^[a-zA-Zа-яА-Я]+$"
+    let patronymic = inputField "Отчество" "^[a-zA-Zа-яА-Я]+$"
     let series = inputField "Серия" "^\d{4}$" |> Int32.Parse
     let number = inputField "Номер" "^\d{6}$" |> Int32.Parse
     let issDate = inputField "Дата выдачи" "^\s*(3[01]|[12][0-9]|0?[1-9])\.(1[012]|0?[1-9])\.((?:19|20)\d{2})\s*$" |> DateTime.Parse
@@ -63,6 +63,50 @@ let inputLicense() =
     let categories = inputField "Категории" "^\s*((A1?|B[1E]?|C1?E?|D1?E?|M|Tm|Tb)(\,\s)*)+\s*$"
 
     DriversLicense(lastname, firstname, patronymic, series, number, issDate, expDate, categories)
+
+[<AbstractClass>]
+type DocCollection() =
+    abstract member searchDoc: DriversLicense -> bool
+
+type ArrayDocCollection(list: DriversLicense list)=
+    inherit DocCollection()
+    member this.DocArray = Array.ofList list
+
+    override this.searchDoc(lic) = 
+        Array.exists (fun x-> x.Equals lic) this.DocArray
+
+type ListDocCollection(list: DriversLicense list)=
+    inherit DocCollection()
+    member this.DocList = list
+
+    override this.searchDoc(lic) = 
+        List.exists (fun x-> x.Equals(lic)) this.DocList
+
+type BinListDocCollection(list: DriversLicense list)=
+    inherit DocCollection()
+
+    let rec binSearch (l:'DriversLicense list) (license:'DriversLicense) =
+        match List.length l with
+        | 0 -> false
+        | i ->
+            let middle = i/2
+            match sign <| compare license l.[middle] with
+            | 0 -> true
+            | 1 -> binSearch l.[..middle - 1] license
+            | _ -> binSearch l.[middle + 1..] license  
+
+    member this.BinList = List.sortBy (fun (x:DriversLicense) -> (x.series, x.number)) list 
+
+    override this.searchDoc(lic) =
+        binSearch this.BinList lic
+
+type SetDocCollection(list: DriversLicense list)=
+    inherit DocCollection()
+    member this.DocSet = Set.ofList list
+
+    override this.searchDoc(lic) = 
+        Set.contains lic this.DocSet
+
 
 [<EntryPoint>]
 let main argv =
